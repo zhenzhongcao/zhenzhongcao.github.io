@@ -14,6 +14,8 @@
 </div>
 </div>
 
+![](https://github.com/zhenzhongcao/zhenzhongcao.github.io/blob/main/images/paperGif.gif?raw=true)
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2023</div><img src='images/SemanticTopoLoop.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
