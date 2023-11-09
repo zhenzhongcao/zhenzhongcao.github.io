@@ -6,7 +6,10 @@
 
 [**Object-Aware SLAM Based on Efficient Quadric Initialization and Joint Data Association**](https://ieeexplore.ieee.org/abstract/document/9829272), **Zhenzhong Cao**, Yunzhou Zhang, Rui Tian, Rong Ma, Xinggang Hu, Sonya Coleman, Dermot Kerr \| [**Project**](https://github.com/zhenzhongcao/Object-Aware-SLAM)
 
-- Semantic simultaneous localization and mapping (SLAM) is a popular technology enabling indoor mobile robots to sufficiently perceive and interact with the environment. In this paper, we propose an object-aware semantic SLAM system, which consists of a quadric initialization method, an object-level data association method, and a multi-constraint optimization factor graph. To overcome the limitation of multi-view observations and the requirement of dense point clouds for objects, an efficient quadric initialization method based on object detection and surfel construction is proposed, which can efficiently initialize quadrics within fewer frames and with small viewing angles. The robust object-level joint data association method and the tightly coupled multi-constraint factor graph for quadrics optimization and joint bundle adjustment enable the accurate estimation of constructed quadrics and camera poses. Extensive experiments using public datasets show that the proposed system achieves competitive performance with respect to accuracy and robustness of object quadric estimation and camera localization compared with state-of-the-art methods.
+- We propose an efficient quadric initialization (EQI) method based on object detection and surfel construction which initializes quadrics using fewer frames with small viewing angles.
+-  We propose a robust object-level joint data association (JDA) method combining multi-dimensional information and statistic distributions. 
+- We propose a multi-constraint optimization factor graph for quadrics optimization and joint bundle adjustment.
+- We implement a complete visual semantic SLAM system, aiming to build a novel object-oriented and semanticallyenhanced map for indoor robot interaction.
 
 </div>
 </div>
@@ -16,7 +19,10 @@
 
 [**SemanticTopoLoop: Semantic Loop Closure With 3D Topological Graph Based on Quadric-Level Object Map**](https://arxiv.org/abs/2311.02831), **Zhenzhong Cao** \| [**Project**](https://github.com/zhenzhongcao/SemanticToopLoop)
 
-- Loop closure, as one of the crucial components in SLAM, plays an essential role in correcting the accumulated errors. Traditional appearance-based methods, such as bag-of-words models, are often limited by local 2D features and the volume of training data, making them less versatile and robust in real-world scenarios, leading to missed detections or false positives detections in loop closure. To address these issues, we first propose a semantic loop closure method based on quadric-level object map topology, which represents scenes through the topological graph of quadric-level objects and achieves accurate loop closure at a wide field of view by comparing differences in the topological graphs. Next, in order to solve the data association problem between frame and map in loop closure, we propose a object-level data association method based on multi-level verification, which can associate 2D semantic features of current frame with 3D objects landmarks of map. Finally, we integrate these two methods into a complete object-aware SLAM system. Qualitative experiments and ablation studies demonstrate the effectiveness and robustness of the proposed object-level data association algorithm. Quantitative experiments show that our semantic loop closure method outperforms existing state-of-the-art methods in terms of precision, recall and localization accuracy metrics.
+- MLV-ODA method is introduced to reduce the time and space complexity of data association, indirectly promoting the accuracy and completeness of object construction in the scene.
+- QLT-SLC method is presented to improve the precision and recall rate of loop closure, as well as enhance the system's localization accuracy.
+- The proposed MLV-ODA method and QLT-SLC method are embed into the Object-Aware SLAM system, which jointly maintain the PPO-MD.
+- Qualitative experiments, quantitative experiments, and ablation studies are designed to demonstrate the effectiveness and robustness of the proposed MLV-ODA and QLT-SLC method.
 
 </div>
 </div>
