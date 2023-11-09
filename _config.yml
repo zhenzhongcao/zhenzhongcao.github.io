@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhenzhong Cao (曹振中)"
-description              : "PHD candidate with the Institute of Robotics and Automatic Information System, College of Artificial Intelligence, Nankai University, Tianjin 300353, China, and also with the Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin 300350, China ."
+description              : "The Institute of Robotics and Automatic Information System, College of Artificial Intelligence, Nankai University, Tianjin 300353, China, and the Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin 300350, China."
 repository               : "zhenzhongcao/zhenzhongcao.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 author:
   name             : "Zhenzhong Cao (曹振中)"
   avatar           : "images/ry_profile.jpeg"
-  bio              : "Bytedance AI Lab"
+  bio              : "PHD condidate NKUer"
   location         : "Tianjin, China"
   employer         :
   pubmed           : 
