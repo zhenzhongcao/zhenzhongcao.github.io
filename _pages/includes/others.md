@@ -6,7 +6,7 @@
 - *2013.09 - 2016.06*, Rizhao No.1 Middle School of Shangdong, Rizhao.
 
 # 💬 Invited Talks
-- 
+- *2022.10*, Online oral presentation, IROS2022
 
 # 💻 Internships
-- 
+- *2022.6 - 2022.9* JD, Program development engineer, Beijing
