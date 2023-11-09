@@ -6,14 +6,20 @@
 
 [**Object-Aware SLAM Based on Efficient Quadric Initialization and Joint Data Association**](https://ieeexplore.ieee.org/abstract/document/9829272), **Zhenzhong Cao**, Yunzhou Zhang, Rui Tian, Rong Ma, Xinggang Hu, Sonya Coleman, Dermot Kerr \| [**Project**](https://github.com/zhenzhongcao/Object-Aware-SLAM)
 
-- FastSpeech is the first fully parallel end-to-end speech synthesis model.
-- **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet). Our work are promoted by more than 20 media and forums, such as [机器之心](https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ)、[InfoQ](https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu).
-- **Industry Impact**: FastSpeech has been deployed in [Microsoft Azure TTS service](https://techcommunity.microsoft.com/t5/azure-ai/neural-text-to-speech-extends-support-to-15-more-languages-with/ba-p/1505911) and supports 49 more languages with state-of-the-art AI quality. It was also shown as a text-to-speech system acceleration example in [NVIDIA GTC2020](https://resources.nvidia.com/events/GTC2020s21420).
+- Semantic simultaneous localization and mapping (SLAM) is a popular technology enabling indoor mobile robots to sufficiently perceive and interact with the environment. In this paper, we propose an object-aware semantic SLAM system, which consists of a quadric initialization method, an object-level data association method, and a multi-constraint optimization factor graph. To overcome the limitation of multi-view observations and the requirement of dense point clouds for objects, an efficient quadric initialization method based on object detection and surfel construction is proposed, which can efficiently initialize quadrics within fewer frames and with small viewing angles. The robust object-level joint data association method and the tightly coupled multi-constraint factor graph for quadrics optimization and joint bundle adjustment enable the accurate estimation of constructed quadrics and camera poses. Extensive experiments using public datasets show that the proposed system achieves competitive performance with respect to accuracy and robustness of object quadric estimation and camera localization compared with state-of-the-art methods.
 
 </div>
 </div>
 
-- ``arxiv 2023`` [SemanticTopoLoop: Semantic Loop Closure With 3D Topological Graph Based on Quadric-Level Object Map](https://arxiv.org/abs/2311.02831), **Zhenzhong Cao** \| [**Project**](https://github.com/zhenzhongcao/SemanticToopLoop)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2023</div><img src='images/SemanticTopoLoop.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**SemanticTopoLoop: Semantic Loop Closure With 3D Topological Graph Based on Quadric-Level Object Map**](https://arxiv.org/abs/2311.02831), **Zhenzhong Cao** \| [**Project**](https://github.com/zhenzhongcao/SemanticToopLoop)
+
+- Loop closure, as one of the crucial components in SLAM, plays an essential role in correcting the accumulated errors. Traditional appearance-based methods, such as bag-of-words models, are often limited by local 2D features and the volume of training data, making them less versatile and robust in real-world scenarios, leading to missed detections or false positives detections in loop closure. To address these issues, we first propose a semantic loop closure method based on quadric-level object map topology, which represents scenes through the topological graph of quadric-level objects and achieves accurate loop closure at a wide field of view by comparing differences in the topological graphs. Next, in order to solve the data association problem between frame and map in loop closure, we propose a object-level data association method based on multi-level verification, which can associate 2D semantic features of current frame with 3D objects landmarks of map. Finally, we integrate these two methods into a complete object-aware SLAM system. Qualitative experiments and ablation studies demonstrate the effectiveness and robustness of the proposed object-level data association algorithm. Quantitative experiments show that our semantic loop closure method outperforms existing state-of-the-art methods in terms of precision, recall and localization accuracy metrics.
+
+</div>
+</div>
 
 ## 📚 Co-Author Paper
 - ``RAL & ICRA 2021`` [Accurate and Robust Object SLAM With 3D Quadric Landmark Reconstruction in Outdoors](https://ieeexplore.ieee.org/abstract/document/9662189), Rui Tian, Yunzhou Zhang, Yonghui Feng, Linghao Yang, **Zhenzhong Cao**, Sonya Coleman, Dermot Kerr
