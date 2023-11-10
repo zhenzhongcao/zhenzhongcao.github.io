@@ -11,8 +11,9 @@
 - We propose a multi-constraint optimization factor graph for quadrics optimization and joint bundle adjustment.
 - We implement a complete visual semantic SLAM system, aiming to build a novel object-oriented and semanticallyenhanced map for indoor robot interaction.
 
-</div>
-</div>
+<div class="text-align:center"><img src="images/paperGif.gif" /></div>
+
+
 
 ![](https://github.com/zhenzhongcao/zhenzhongcao.github.io/blob/main/images/paperGif.gif?raw=true)
 
@@ -25,9 +26,6 @@
 - QLT-SLC method is presented to improve the precision and recall rate of loop closure, as well as enhance the system's localization accuracy.
 - The proposed MLV-ODA method and QLT-SLC method are embed into the Object-Aware SLAM system, which jointly maintain the PPO-MD.
 - Qualitative experiments, quantitative experiments, and ablation studies are designed to demonstrate the effectiveness and robustness of the proposed MLV-ODA and QLT-SLC method.
-
-</div>
-</div>
 
 ## 📚 Co-Author Paper
 - ``RAL & ICRA 2021`` [Accurate and Robust Object SLAM With 3D Quadric Landmark Reconstruction in Outdoors](https://ieeexplore.ieee.org/abstract/document/9662189), Rui Tian, Yunzhou Zhang, Yonghui Feng, Linghao Yang, **Zhenzhong Cao**, Sonya Coleman, Dermot Kerr
