@@ -9,4 +9,4 @@
 - *2022.10*, Online oral presentation, IROS2022
 
 # 💻 Internships
-- *2022.6 - 2022.9* JD, Program development engineer, Beijing
+- *2022.06 - 2022.09*, JD, Program development engineer, Beijing
