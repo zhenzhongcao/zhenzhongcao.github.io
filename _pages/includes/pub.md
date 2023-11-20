@@ -2,7 +2,7 @@
 # 📝 Publications 
 ## 👄 Main Paper
 
-<audio src="audios/OurSong.mp3" autoplay loop></audio>
+<audio src="../../audios/OurSong.mp3" autoplay loop></audio>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RAL and IROS 2022</div><img src='images/ObjectAwareSLAM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
