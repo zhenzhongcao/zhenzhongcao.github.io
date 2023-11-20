@@ -19,4 +19,3 @@ redirect_from:
 
 {% include_relative includes/others.md %}
 
-<audio src="audios/OurSong.mp3" autoplay loop></audio>
