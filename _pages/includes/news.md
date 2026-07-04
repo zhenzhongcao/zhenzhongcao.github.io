@@ -1,7 +1,8 @@
+# 🔥 News
+
 <div style="display: flex; gap: 30px; align-items: flex-start;">
 
   <div style="flex: 1;">
-    <h1>🔥 News</h1>
     <ul>
       <li><em>30 Jun 2026</em>, Our paper <strong>LLF-GS SLAM</strong> is under review by <strong>TMM</strong>.</li>
       <li><em>19 Mar 2025</em>, Our paper <strong>RGBDS-SLAM</strong> has been published by <strong>RA-L 2025</strong>.</li>
@@ -13,7 +14,7 @@
   </div>
 
   <div style="flex-shrink: 0;">
-    <img src="images/phd-plan.png" style="width: 240px;" alt="vertical picture">
+    <img src="images/phd-plan.png" style="width: 200px;" alt="vertical picture">
   </div>
 
 </div>
