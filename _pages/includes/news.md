@@ -1,5 +1,3 @@
-<div style="display: flex; gap: 30px; align-items: flex-start;">
-  <div style="flex: 1;">
 # 🔥 News
 - *30 Jun. 2026*, Our paper LLF-GS SLAM is under review by TMM.
 - *19 Mar. 2025*, Our paper RGBDS-SLAM has been published by RA-L 2025.
@@ -7,8 +5,3 @@
 - *6 Sep. 2024*, Our paper Survey of 3D GS has been published by Robot 2024.
 - *6 Mar. 2024*, Our paper SemanticTopoLoop has been published by RA-L 2024.
 - *13 Jul. 2022*, Our paper Object-Aware-SLAM has been published by RA-L and IROS 2022.
-  </div>
-  <div style="flex-shrink: 0;">
-    <img src="images/phd-plan.png" style="width: 240px;" alt="vertical image">
-  </div>
-</div>
