@@ -71,7 +71,18 @@
 
 </div>
 
-<div class="divcss5"><img src="images/room1.gif" /></div>
+<div class="divcss5">
+  <!-- 第一行2个 -->
+  <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+    <img src="images/room0.gif" style="width: 48%;" />
+    <img src="images/room1.gif" style="width: 48%;" />
+  </div>
+  <!-- 第二行2个 -->
+  <div style="display: flex; gap: 10px;">
+    <img src="images/office2.gif" style="width: 48%;" />
+    <img src="images/office4.gif" style="width: 48%;" />
+  </div>
+</div>
 
 
 ## 📚 Co-Author Paper
