@@ -38,6 +38,36 @@
 
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2023</div><img src='images/RGBDS-SLAM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**SemanticTopoLoop: Semantic Loop Closure With 3D Topological Graph Based on Quadric-Level Object Map**](https://arxiv.org/abs/2311.02831), **Zhenzhong Cao** \| [**Project**](https://github.com/zhenzhongcao/RGBDS-SLAM)
+
+- MLV-ODA method is introduced to reduce the time and space complexity of data association, indirectly promoting the accuracy and completeness of object construction in the scene.
+- QLT-SLC method is presented to improve the precision and recall rate of loop closure, as well as enhance the system's localization accuracy.
+- The proposed MLV-ODA method and QLT-SLC method are embed into the Object-Aware SLAM system, which jointly maintain the PPO-MD.
+- Qualitative experiments, quantitative experiments, and ablation studies are designed to demonstrate the effectiveness and robustness of the proposed MLV-ODA and QLT-SLC method.
+
+</div>
+
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2023</div><img src='images/LLF-GS_SLAM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**SemanticTopoLoop: Semantic Loop Closure With 3D Topological Graph Based on Quadric-Level Object Map**](https://arxiv.org/abs/2311.02831), **Zhenzhong Cao** \| [**Project**](https://github.com/zhenzhongcao/LLF-GS_SLAM)
+
+- MLV-ODA method is introduced to reduce the time and space complexity of data association, indirectly promoting the accuracy and completeness of object construction in the scene.
+- QLT-SLC method is presented to improve the precision and recall rate of loop closure, as well as enhance the system's localization accuracy.
+- The proposed MLV-ODA method and QLT-SLC method are embed into the Object-Aware SLAM system, which jointly maintain the PPO-MD.
+- Qualitative experiments, quantitative experiments, and ablation studies are designed to demonstrate the effectiveness and robustness of the proposed MLV-ODA and QLT-SLC method.
+
+</div>
+
+</div>
+
 ## 📚 Co-Author Paper
 - ``RAL and ICRA 2021`` [Accurate and Robust Object SLAM With 3D Quadric Landmark Reconstruction in Outdoors](https://ieeexplore.ieee.org/abstract/document/9662189), Rui Tian, Yunzhou Zhang, Yonghui Feng, Linghao Yang, **Zhenzhong Cao**, Sonya Coleman, Dermot Kerr
 - `ICRA 2022` [SemLoc: Accurate and Robust Visual Localization with Semantic and Structural Constraints from Prior Maps](https://ieeexplore.ieee.org/abstract/document/9811925), Shiwen Liang, Yunzhou Zhang, Rui Tian, Delong Zhu, Linghao Yang, **Zhenzhong Cao**
