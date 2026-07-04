@@ -1,8 +1,7 @@
-
 # 📝 Publications 
 ## 👄 Main Paper
 
-<audio src="../../audios/OurSong.mp3" autoplay loop></audio>
+<audio src="../../audios/OurSong.mp3" autoplay loop>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RAL and IROS 2022</div><img src='images/ObjectAwareSLAM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -34,6 +33,34 @@
 - QLT-SLC method is presented to improve the precision and recall rate of loop closure, as well as enhance the system's localization accuracy.
 - The proposed MLV-ODA method and QLT-SLC method are embed into the Object-Aware SLAM system, which jointly maintain the PPO-MD.
 - Qualitative experiments, quantitative experiments, and ablation studies are designed to demonstrate the effectiveness and robustness of the proposed MLV-ODA and QLT-SLC method.
+
+</div>
+
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/RGBDS-SLAM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**RGBDS-SLAM: A RGB-D Semantic Dense SLAM Based on 3D Multi Level Pyramid Gaussian Splatting**](https://github.com/zhenzhongcao/RGBDS-SLAM), **Zhenzhong Cao**, Chenyang Zhao, Qianyi Zhang, Jinzheng Guang, Yinuo Song, Jingtai Liu \| [**Project**](https://github.com/zhenzhongcao/RGBDS-SLAM)
+
+- We propose a 3D Multi-Level Pyramid Gaussian Splatting (MLP-GS) module, which builds multi-resolution image pyramids for progressive training to restore scene fine-grained details and ensure cross-view reconstruction consistency.
+- We design a Tightly Coupled Multi-Features Reconstruction Optimization (TCMF-RO) mechanism, enabling mutual promotion of RGB, depth and semantic reconstruction accuracy in joint rendering optimization.
+- We build a full RGB-D semantic dense SLAM system extended from ORB-SLAM3, realizing real-time high-fidelity joint reconstruction of color, geometry and semantic information.
+- Extensive experiments on Replica and ScanNet datasets show our method outperforms SOTA methods, with 11.13% PSNR gain and 68.57% LPIPS improvement; ablation studies verify the validity of MLP-GS and TCMF-RO modules.
+
+</div>
+
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal 2026</div><img src='images/LLF-GS-SLAM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**LLF-GS SLAM: Real-Time 3D Gaussian Semantic SLAM via Compact Label-Language Features**](https://github.com/zhenzhongcao/LLF-GS-SLAM), **Zhenzhong Cao**, Chenyang Zhao, Yinuo Song, Jingtai Liu \| [**Project**](https://github.com/zhenzhongcao/LLF-GS SLAM)
+
+- We propose a label-language dual-branch semantic Gaussian representation: global consistent explicit labels serve as object segmentation anchors, while each object maintains compact multi-view language feature banks for open-vocabulary interaction.
+- A global label consistency alignment mechanism is proposed to match frame-wise SAM segmentation masks with rendered global semantic maps, eliminating cross-view label fragmentation.
+- We compress 512-dim CLIP features into 16-dim compact embeddings via offline autoencoder, and design quality-aware multi-view feature bank update strategy to balance storage overhead and retrieval performance.
+- The system supports real-time online mapping, open-vocabulary text query and object-level 3D editing; experiments on Replica and TUM RGB-D datasets achieve superior semantic segmentation and object retrieval efficiency under limited GPU memory.
 
 </div>
 
