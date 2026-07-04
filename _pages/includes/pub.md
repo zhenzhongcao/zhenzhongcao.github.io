@@ -24,7 +24,7 @@
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2023</div><img src='images/SemanticTopoLoop.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2024</div><img src='images/SemanticTopoLoop.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**SemanticTopoLoop: Semantic Loop Closure With 3D Topological Graph Based on Quadric-Level Object Map**](https://arxiv.org/abs/2311.02831), **Zhenzhong Cao** \| [**Project**](https://github.com/zhenzhongcao/SemanticToopLoop)
@@ -39,34 +39,40 @@
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2023</div><img src='images/RGBDS-SLAM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2025</div><img src='images/RGBDS-SLAM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**SemanticTopoLoop: Semantic Loop Closure With 3D Topological Graph Based on Quadric-Level Object Map**](https://arxiv.org/abs/2311.02831), **Zhenzhong Cao** \| [**Project**](https://github.com/zhenzhongcao/RGBDS-SLAM)
+[**RGBDS-SLAM: A RGB-D Semantic Dense SLAM Based on 3D Multi Level Pyramid Gaussian Splatting**](https://ieeexplore.ieee.org/abstract/document/10933519), **Zhenzhong Cao** \| [**Project**](https://github.com/zhenzhongcao/RGBDS-SLAM)
 
-- MLV-ODA method is introduced to reduce the time and space complexity of data association, indirectly promoting the accuracy and completeness of object construction in the scene.
-- QLT-SLC method is presented to improve the precision and recall rate of loop closure, as well as enhance the system's localization accuracy.
-- The proposed MLV-ODA method and QLT-SLC method are embed into the Object-Aware SLAM system, which jointly maintain the PPO-MD.
-- Qualitative experiments, quantitative experiments, and ablation studies are designed to demonstrate the effectiveness and robustness of the proposed MLV-ODA and QLT-SLC method.
-
-</div>
+- We introduce a 3D Multi-Level Pyramid Gaussian Splatting (MLP-GS) method, which extracts multi-level image pyramids for Gaussian splatting training to restore scene details and ensure reconstruction consistency.
+- We design a Tightly Coupled Multi-Features Reconstruction Optimization (TCMF-RO) mechanism to mutually boost RGB, depth, and semantic reconstruction accuracy during rendering optimization.
+- We build a full RGB-D semantic dense SLAM system extended from ORB-SLAM3, supporting real-time high-fidelity joint reconstruction of color, depth and semantics.
+- Experiments on Replica and ScanNet datasets surpass SOTA methods, with 11.13% PSNR and 68.57% LPIPS improvement; ablation experiments verify the effectiveness of two core modules.
 
 </div>
 
+</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2023</div><img src='images/LLF-GS_SLAM.png' alt="sym" width="100%"></div></div>
+
+<div class="divcss5"><img src="images/demo-office4.gif" /></div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2026</div><img src='images/LLF-GS_SLAM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**SemanticTopoLoop: Semantic Loop Closure With 3D Topological Graph Based on Quadric-Level Object Map**](https://arxiv.org/abs/2311.02831), **Zhenzhong Cao** \| [**Project**](https://github.com/zhenzhongcao/LLF-GS_SLAM)
+[**LLF-GS SLAM: Real-Time 3D Gaussian Semantic SLAM via Compact Label-Language Features**](https://arxiv.org/abs/2311.02831), **Zhenzhong Cao** \| [**Project**](https://github.com/zhenzhongcao/LLF-GS SLAM)
 
-- MLV-ODA method is introduced to reduce the time and space complexity of data association, indirectly promoting the accuracy and completeness of object construction in the scene.
-- QLT-SLC method is presented to improve the precision and recall rate of loop closure, as well as enhance the system's localization accuracy.
-- The proposed MLV-ODA method and QLT-SLC method are embed into the Object-Aware SLAM system, which jointly maintain the PPO-MD.
-- Qualitative experiments, quantitative experiments, and ablation studies are designed to demonstrate the effectiveness and robustness of the proposed MLV-ODA and QLT-SLC method.
+- We propose a label-language dual-branch semantic Gaussian representation: global consistent explicit labels act as object segmentation anchors, and each label stores a compact multi-view language feature bank for open-vocabulary query and editing.
+- A global label consistency mechanism aligns per-frame SAM segmentation with rendered semantic maps to eliminate cross-view label fragmentation.
+- We compress 512-dim CLIP features into 16-dim compact embeddings via offline autoencoder, and design quality-aware update rules for feature banks to save memory.
+- The system runs in real time on low-memory GPUs, supporting open-vocabulary 3D object retrieval and interactive object editing; extensive experiments validate its superiority on Replica and TUM RGB-D.
+
+</div>
 
 </div>
 
-</div>
+<div class="divcss5"><img src="images/room1.gif" /></div>
+
 
 ## 📚 Co-Author Paper
 - ``RAL and ICRA 2021`` [Accurate and Robust Object SLAM With 3D Quadric Landmark Reconstruction in Outdoors](https://ieeexplore.ieee.org/abstract/document/9662189), Rui Tian, Yunzhou Zhang, Yonghui Feng, Linghao Yang, **Zhenzhong Cao**, Sonya Coleman, Dermot Kerr
