@@ -86,7 +86,12 @@
 
 
 ## 📚 Co-Author Paper
-- ``RAL and ICRA 2021`` [Accurate and Robust Object SLAM With 3D Quadric Landmark Reconstruction in Outdoors](https://ieeexplore.ieee.org/abstract/document/9662189), Rui Tian, Yunzhou Zhang, Yonghui Feng, Linghao Yang, **Zhenzhong Cao**, Sonya Coleman, Dermot Kerr
-- `ICRA 2022` [SemLoc: Accurate and Robust Visual Localization with Semantic and Structural Constraints from Prior Maps](https://ieeexplore.ieee.org/abstract/document/9811925), Shiwen Liang, Yunzhou Zhang, Rui Tian, Delong Zhu, Linghao Yang, **Zhenzhong Cao**
-- ``IROS 2022`` [CFP-SLAM: A Real-time Visual SLAM Based on Coarse-to-Fine Probability in Dynamic Environments](https://ieeexplore.ieee.org/abstract/document/9981826), Xinggang Hu, Yunzhou Zhang, **Zhenzhong Cao**, Rong Ma, Yanmin Wu, Zhiqiang Deng, Wenkai Sun 
-- ``TITS 2023`` [Object SLAM With Robust Quadric Initialization and Mapping for Dynamic Outdoors](https://ieeexplore.ieee.org/abstract/document/10149129), Rui Tian, Yunzhou Zhang, **Zhenzhong Cao**, Jinpeng Zhang, Linghao Yang, Sonya Coleman, Dermot Kerr, Kun Li
+- `RAL and ICRA 2022` [Accurate and Robust Object SLAM With 3D Quadric Landmark Reconstruction in Outdoors](https://ieeexplore.ieee.org/document/9662189/), Rui Tian, Yunzhou Zhang, Yonghui Feng, Linghao Yang, **Zhenzhong Cao**, Sonya Coleman, Dermot Kerr
+- `ICRA 2022` [SemLoc: Accurate and Robust Visual Localization With Semantic and Structural Constraints From Prior Maps](https://ieeexplore.ieee.org/document/9811925/), Shiwen Liang, Yunzhou Zhang, Rui Tian, Delong Zhu, Linghao Yang, **Zhenzhong Cao**
+- `IROS 2022` [CFP-SLAM: A Real-Time Visual SLAM Based on Coarse-to-Fine Probability in Dynamic Environments](https://ieeexplore.ieee.org/document/9981826/), Xinggang Hu, Yunzhou Zhang, **Zhenzhong Cao**, Rong Ma, Yanmin Wu, Zhiqiang Deng, Wenkai Sun
+- `IROS 2022` [Semantic Topological Descriptor for Loop Closure Detection Within 3D Point Clouds in Outdoor Environment](https://ieeexplore.ieee.org/document/9981965/), Ming Liao, Yunzhou Zhang, Jinpeng Zhang, **Zhenzhong Cao**, Xiaoyu Zhao, Sonya Coleman, Dermot Kerr
+- `TITS 2023` [Object SLAM With Robust Quadric Initialization and Mapping for Dynamic Outdoors](https://ieeexplore.ieee.org/document/10149129/), Rui Tian, Yunzhou Zhang, **Zhenzhong Cao**, Jinpeng Zhang, Linghao Yang, Sonya Coleman, Dermot Kerr, Kun Li
+- `TCSVT 2025` DYO-SLAM: Visual Localization and Object Mapping in Dynamic Scenes, Xinggang Hu, Yanmin Wu, Mingyuan Zhao, **Zhenzhong Cao**, Xiangkui Zhang, Xiangyang Ji
+- `IROS 2025` [ELPTNet: An Efficient LiDAR-Based 3D Pedestrian Tracking Network for Autonomous Navigation Social Robots](https://ieeexplore.ieee.org/document/11246019/), Jinzheng Guang, **Zhenzhong Cao**, Yinuo Song, Jingtai Liu
+- `ESWA 2026` [HTMNet: A Hybrid Transformer-Mamba Network for LiDAR-Based 3D Detection and Semantic Segmentation](https://www.sciencedirect.com/science/article/abs/pii/S0957417426007451), Jinzheng Guang, Shichao Wu, Yongru Wang, **Zhenzhong Cao**, Xiao Wu, Jingtai Liu
+- `TASE 2026` PipeCLIP: Defect-Conditioned and Cross-Focus-Driven Vision-Language Model for Video-Based Sewer Defect Inspection, Chenyang Zhao, Chuanfei Hu, **Zhenzhong Cao**, Yinuo Song, Jingtai Liu
