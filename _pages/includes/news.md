@@ -14,7 +14,7 @@
   </div>
 
   <div style="flex-shrink: 0;">
-    <img src="images/phd-plan.png" style="width: 200px;" alt="vertical picture">
+    <img src="images/phd-plan.png" style="width: 240px;" alt="vertical picture">
   </div>
 
 </div>
