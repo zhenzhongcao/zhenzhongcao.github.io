@@ -52,10 +52,10 @@
 
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal 2026</div><img src='images/LLF-GS-SLAM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal 2026</div><img src='images/LLF-GS_SLAM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**LLF-GS SLAM: Real-Time 3D Gaussian Semantic SLAM via Compact Label-Language Features**](https://github.com/zhenzhongcao/LLF-GS-SLAM), **Zhenzhong Cao**, Chenyang Zhao, Yinuo Song, Jingtai Liu \| [**Project**](https://github.com/zhenzhongcao/LLF-GS SLAM)
+[**LLF-GS SLAM: Real-Time 3D Gaussian Semantic SLAM via Compact Label-Language Features**](https://github.com/zhenzhongcao/LLF-GS_SLAM), **Zhenzhong Cao**, Chenyang Zhao, Yinuo Song, Jingtai Liu \| [**Project**](https://github.com/zhenzhongcao/LLF-GS SLAM)
 
 - We propose a label-language dual-branch semantic Gaussian representation: global consistent explicit labels serve as object segmentation anchors, while each object maintains compact multi-view language feature banks for open-vocabulary interaction.
 - A global label consistency alignment mechanism is proposed to match frame-wise SAM segmentation masks with rendered global semantic maps, eliminating cross-view label fragmentation.
